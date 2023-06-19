@@ -1,0 +1,35 @@
+.errorPage{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+}
+.imgSector{
+    width: 30%;
+    margin: auto;
+    
+}
+
+.homeButton{
+    border: 1px solid #ff506c;
+    width: 20%;
+    margin: auto;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    background-color: #ff506c;
+    color: #ffffff;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Source Sans pro';
+    cursor: pointer;
+}
+
+.homeButton:hover{
+    box-shadow: 0 0.5rem 2.3rem 0 rgba(255,80,108,0.5);  
+}
+
+.homeButton a{
+    color: #ffffff;
+}

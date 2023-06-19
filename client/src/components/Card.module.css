@@ -1,0 +1,48 @@
+.cardContainer{
+    /* border: 1px solid #ffffff; */
+    margin: 2px 10px;
+    width: 300px;
+    height: 500px;
+    padding: 0.4rem;
+    box-shadow: 0.4rem 0.7rem 2.8rem 0 rgba(68,77,91,0.14);
+
+}
+
+.info{
+    text-align: center;
+    font-family: 'Source Sans pro';
+    padding: 0.1rem;
+}
+
+.info img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.info .orgName{
+    margin: 1rem auto;
+}
+
+.location, hr, .quantity{
+    margin: 1rem 0;
+}
+
+
+
+.headName{
+    color: #91A1B7;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.details{
+    border: 1px solid #91A1B7;
+    border-radius: 0.4rem;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 0.4rem 0.9rem;
+    background-color: #008CFF;
+    color: #ffffff;
+    cursor: pointer;
+}

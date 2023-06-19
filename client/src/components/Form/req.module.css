@@ -1,0 +1,72 @@
+.formcontainer .inputTag{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontainer {
+    font-family: 'Source Sans Pro';
+}
+
+.wrapper label{
+    margin-bottom: 0.3rem;
+    color: rgb(232, 32, 125);
+}
+
+.wrapper input{
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    width: 80%;
+}
+
+.wrapper input:focus{
+    outline: none;
+}
+
+legend{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+fieldset{
+    padding: 1rem;
+}
+
+.description{
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    padding: 0.4rem;
+}
+
+.description:focus{
+    outline: none;
+}
+
+.checkFood{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.btns{
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    padding: 0.3rem;
+    margin: 1rem auto;
+    width: 150px;
+    cursor: pointer;
+}
+
+@media (max-width:769px){
+    .formcontainer{
+        margin: 0 0.3rem;
+    }
+
+    .wrapper label{
+        margin-bottom: 0.3rem;
+        color: rgb(232, 32, 125);
+        font-size: 14px;
+    }
+}

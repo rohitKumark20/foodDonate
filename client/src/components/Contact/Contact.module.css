@@ -1,0 +1,59 @@
+.formbody{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contact_form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -3rem;
+  }
+  
+  .contact_form {
+    width: 50%;
+    padding: 2rem;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+  }
+  
+  .form_group {
+    margin-bottom: 1rem;
+  }
+
+  .header{
+    font-size: 60px;
+    margin-bottom: 2rem;
+  }
+  
+  .formbody label {
+    display: block;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+  }
+
+  input:focus,textarea:focus{
+    outline: none;
+  }
+  
+  button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ced4d9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #949494;
+}
+
+.passLink, .signLink{
+    color: #3d97fe;
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 20px;
+    color: #ced4d9;
+}
+
+.wrapper{
+    width: 30%;
+    height: 80%;
+    margin: 20px auto auto;
+    background-color: #ffffff;
+    padding: 50px;
+    border: none;
+}
+
+.header h1{
+    margin: 7px 0 20px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0 0 7px;
+}
+
+.credentials{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.email,.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+input{
+    border: 2px solid #ced4d9;
+    border-radius: 5px;
+    padding: 7px;
+    width: 350px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    margin-top: 0.3rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+.forgot{
+    position: relative;
+    left: 65%;
+    font-size: 0.9em;
+}
+
+.login{
+    margin: 10px;
+}
+
+.login .btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px  5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #b531a8;
+    color: #ffffff;
+}
+
+.login .btn:hover{
+    background-color: #ec45db;
+    font-size: 17px;
+}
+
+.signUp{
+    position: relative;
+    left: 20%;
+    margin: 30px 0;
+}
+
+.navigator{
+    height: 1vh;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.navList ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigator .right .btn{
+    padding: 10px;
+    width: 120px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3d97fe;
+    color: #ffffff;
+}

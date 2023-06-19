@@ -1,0 +1,37 @@
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 2rem;
+    
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: "Source Sans Pro";
+}
+
+.header{
+    margin: 2rem auto;
+}
+
+.header p{
+    font-size: 16px;
+}
+.header h1{
+    font-size: 30px;
+}
+
+.motivation{
+    margin: 3rem auto;
+}
+
+@media (max-width:769px){
+    .cards{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 2rem;
+        
+    }
+}
